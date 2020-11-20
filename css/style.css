@@ -18,6 +18,7 @@
        url('/fonts/2FF32C_2_0.ttf') format('ttf'),
        url('/fonts/2FF32C_2_0.eot') format('eot');
 }
+
 @font-face {
   font-family: 'Sofia Pro';
   font-style: italic;
@@ -51,7 +52,6 @@ html{
   top: 0;
   left: 0;
 }
-
 #background{
   width: 100%;
   height: 100vh;
@@ -167,7 +167,8 @@ p a {
   max-width: 320px;
   padding: 20px;
   padding-bottom: 0;
-  background-color: white;}
+  
+}
 
 #logo{
   width: 200px;
