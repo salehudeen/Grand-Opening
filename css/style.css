@@ -52,6 +52,7 @@ html{
   top: 0;
   left: 0;
 }
+
 #background{
   width: 100%;
   height: 100vh;
@@ -61,7 +62,8 @@ html{
   left: 0;
   text-overflow: clip;
   background: -webkit-radial-gradient(rgba(0,0,0,1) 0, rgba(0,0,0,1) 8%, rgba(0,0,0,0) 9%, rgba(0,0,0,0) 100%);
-  background: radial-gradient(rgba(0,0,0,1) 0, rgba(0,0,0,1) 8%, rgba(0,0,0,0) 9%, rgba(0,0,0,0) 100%);
+  background: radial-gradient(rgb(249, 253, 4) 0, rgb(249, 253, 4) 0 8%, rgba(0,0,0,0) 9%, rgba(0,0,0,0) 100%);
+  background-color:black;
   background-origin: padding-box;
   background-clip: border-box;
   background-size: 60px 60px;
@@ -81,7 +83,8 @@ body {
 }
 
 .wrapper {
-  padding: 70px; }
+  padding: 70px;
+}
 
 #mc_embed_signup{
   background-color: white;
@@ -167,13 +170,11 @@ p a {
   max-width: 320px;
   padding: 20px;
   padding-bottom: 0;
-  
 }
 
 #logo{
-  width: 200px;
-  background-color: white;
-  padding: 20px;
+  width: 150px;
+ padding: 10px;
 }
 
 #Email-error {
@@ -254,7 +255,8 @@ button {
   position: fixed;
   bottom: 70px;
   left: 70px;
-  width: calc(100% - 140px); }
+  width: calc(100% - 140px); 
+}
 
 .info {
   padding: 0;
@@ -269,7 +271,9 @@ button {
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: space-between;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background-color: black;
+}
 
 .bar {
   position: relative;

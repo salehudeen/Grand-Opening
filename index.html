@@ -20,9 +20,9 @@
       <!--<input id="Email" type="email" name="email" placeholder="Enter your email" autocomplete="off"></input>-->
       <div class="desc">
         <!--<p><a href="http://design.yorku.ca">York/Sheridan Design Program</a></p></br>-->
-        <p>BAKAL BUTCHERY GRAND OPENING</p>
-        <p>We'll soon be launching our Grand opening event,
-        and your invited
+        <p><mark>BAKAL BUTCHERY GRAND OPENING</mark></p>
+        <p>We'll soon be launching our Grand opening,
+        and your invited!
         </p>
       </div>
       <!-- Begin MailChimp Signup Form -->
@@ -40,11 +40,9 @@
       </div>-->
       <div class="mc-field-group input-group hidden">
           <p>Would you like to attend the grand opening?</p>
-          <form action="salehudeensaleh@gmail.com" method="get" enctype="text/plain">
           <ul><li><input type="radio" value="1" name="group[7081]" id="mce-group[7081]-7081-0" class="industry"><label for="mce-group[7081]-7081-0">Yes</label></li>
       <li><input type="radio" value="2" name="group[7081]" id="mce-group[7081]-7081-1" class="non_industry"><label for="mce-group[7081]-7081-1">No</label></li>
       </ul>
-      </form>
       </div>
       <!--<div class="mc-field-group company hidden">
         <input type="text" placeholder="Company" name="COMPANY" id="mce-COMPANY">
@@ -63,13 +61,28 @@
     <div class="bottom">
       <div class="info">
       <li><a href="https://www.google.com/calendar/event?action=TEMPLATE&tmeid=cWhiNHNhOWVvZHYzZ3Mwc29kNGp0cHVlbmMgaW50ZXJhY3RpdmUueXNkbjE2QG0&tmsrc=interactive.ysdn16%40gmail.com" target="_blank">November 22nd, 2020</a></li>
-      <li><a href="https://www.google.com/maps/@-1.2946647,36.7871144,17z" target="_blank">Location of Bakal Butchery</a></li>
-     <!-- <li><a href="#" class="disabled" target="_blank">Facebook</a></li>
-      <li><a href="#" class="disabled" target="_blank">Twitter</a></li>-->
-      <li><a href="https://www.instagram.com/bakal_meat_supplies/" target="_blank">Instagram</a></li>
+      <li><a href="https://goo.gl/maps/" target="_blank">Location of Bakal Butchery</a></li>
+      
+      <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
       </div>
     </div>
   </div>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+       <a href="http://salehudeen.github.io/deen-saleh/">Deen Saleh</a>.
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
@@ -115,35 +128,5 @@ $(document).ready(function () {
   ga('send', 'pageview');
 
 </script>
-<script>
-  // DOM Ready
-  $(function() {
 
-    var originalBGeyepeice = $("#eyepeice").css("background-color"),
-        x, y, xy, bgWebKit, bgMoz,
-        lightColor = "rgba(255,255,255,0)",
-        gradientSize = 150;
-
-      $('#eyepeice').css({ background: "white" });
-
-      // Basic Demo
-      $('body').mousemove(function(e) {
-
-        x  = e.pageX - this.offsetLeft;
-        y  = e.pageY - this.offsetTop;
-        xy = x + " " + y;
-
-        bgWebKit = "-webkit-gradient(radial, " + xy + ", 145, " + xy + ", " + gradientSize + ", from(" + lightColor + "), to(rgba(255,255,255,1))), " + originalBGeyepeice;
-        bgMoz    = "-moz-radial-gradient(" + x + "px " + y + "px 45deg, circle, " + lightColor + " 0%, " + originalBGeyepeice + " " + gradientSize + "px)";
-
-        $('#eyepeice')
-          .css({ background: bgWebKit })
-          .css({ background: bgMoz });
-
-      }).mouseleave(function() {
-        $(this).css({ background: originalBGeyepeice });
-      });
-
-  });
-</script>
 </html>
